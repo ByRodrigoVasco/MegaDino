@@ -4,6 +4,12 @@ SEJA BEM VINDO AO JOGO DO MEGA MAN RUNNER.
 
 É um jogo inspirado no T-rex Runner, do navegador, com a tematica voltada para megaman, feito em Python utilizando Pygame
 
+Se certifique de ter o pygame isntalado
+
+```python
+py -m pip install pygame
+```
+
 para iniciar o jogo execute o arquivo main.py e se divirta.
 
 o jogo conta com algumas funcionalidades.
@@ -36,6 +42,12 @@ Atividade feita para: Jala University
 WELCOME TO THE MEGA MAN RUNNER GAME.
 
 It is a game inspired by the T-rex Runner, from the browser, with a theme focused on megaman, made in Python using Pygame
+
+check that pygame is installed:
+
+```python
+py -m pip install pygame
+```
 
 to start the game run the main.py file and have fun.
 
