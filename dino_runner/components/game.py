@@ -147,7 +147,7 @@ class Game:
                 textTimer_rect.center = (555, 350)
                 self.screen.blit(self.textTimer, textTimer_rect)
             if remaining_time == 0:
-                pygame.display.QUIT()
+                pygame.event.post(pygame.event.Event(pygame.QUIT))
     
     def draw_background(self):
         self.screen.blit(MBG, (self.x_pos_bg, self.y_pos_bg))
@@ -214,4 +214,4 @@ class Game:
                     self.run()
               
                 elif pygame.key.get_pressed()[pygame.K_ESCAPE] and self.death_count >=0:
-                    event.type = pygame.QUIT
+                    pygame.event.post(pygame.event.Event(pygame.QUIT))
